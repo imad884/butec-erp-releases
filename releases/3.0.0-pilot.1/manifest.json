@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "imad884/Butec-ERP",
+  "releaseRepository": "imad884/butec-erp-releases",
+  "sourceSha": "677ac13e90afb72fb7d6097f55adac0355c34431",
+  "repository": "imad884/Butec-ERP",
+  "sourceHeadSha": "677ac13e90afb72fb7d6097f55adac0355c34431",
+  "version": "3.0.0-pilot.1",
+  "channel": "pilot",
+  "stage": "base",
+  "appId": "com.butec.erp",
+  "productName": "BUTEC Procurement & Logistics ERP",
+  "executableName": "BUTEC Procurement & Logistics ERP.exe",
+  "installer": {
+    "filename": "BUTEC-Procurement-ERP-Setup-3.0.0-pilot.1.exe",
+    "bytes": 107959925,
+    "sha256": "0A7E3F6475B81163BCBB51AB2B944324147774C461D73D0F1D1D219C007C958B"
+  },
+  "blockmap": {
+    "filename": "BUTEC-Procurement-ERP-Setup-3.0.0-pilot.1.exe.blockmap",
+    "bytes": 112477,
+    "sha256": "1842E30E0BA76E508AE874F71C584D037114E07A269A9928E367DFC5F0784D74"
+  },
+  "metadata": {
+    "filename": "pilot.yml",
+    "bytes": 395,
+    "sha256": "CEB07ADF93B1BB1706AF12DFCEED4EFD2D59D89E652875C1F07BD83FFD6F0FDB"
+  },
+  "signed": false,
+  "signatureStatus": "UNSIGNED_INTERNAL_PILOT",
+  "workflowRun": "",
+  "workflowAttempt": "",
+  "createdAt": "2026-08-04T14:04:34.529Z",
+  "contentInspection": "PASS",
+  "pc2AcceptanceGuide": {
+    "filename": "PC2-PILOT-ACCEPTANCE-FR.md",
+    "sha256": "609F0B82A117074CF3B6315AB0EC91E1F6CC48C3C4659B22B4912C5ED332D11E"
+  },
+  "release": {
+    "stage": "base",
+    "version": "3.0.0-pilot.1",
+    "tag": "v3.0.0-pilot.1",
+    "unsigned": true,
+    "externalAcceptance": "PENDING"
+  },
+  "identity": {
+    "appId": "com.butec.erp",
+    "productName": "BUTEC Procurement & Logistics ERP",
+    "executableName": "BUTEC Procurement & Logistics ERP.exe"
+  },
+  "artifacts": [
+    {
+      "name": "BUTEC-Procurement-ERP-Setup-3.0.0-pilot.1.exe",
+      "sha256": "0A7E3F6475B81163BCBB51AB2B944324147774C461D73D0F1D1D219C007C958B"
+    },
+    {
+      "name": "latest.yml",
+      "sha256": "CEB07ADF93B1BB1706AF12DFCEED4EFD2D59D89E652875C1F07BD83FFD6F0FDB"
+    },
+    {
+      "name": "pilot.yml",
+      "sha256": "CEB07ADF93B1BB1706AF12DFCEED4EFD2D59D89E652875C1F07BD83FFD6F0FDB"
+    },
+    {
+      "name": "BUTEC-Procurement-ERP-Setup-3.0.0-pilot.1.exe.blockmap",
+      "sha256": "1842E30E0BA76E508AE874F71C584D037114E07A269A9928E367DFC5F0784D74"
+    },
+    {
+      "name": "artifact-inspection.json",
+      "sha256": "C968DB11AA6ADA7852360C9D727EEAFBE8CB1F106E90EB5E0AF37C730D0F405B"
+    },
+    {
+      "name": "package-content-inspection.json",
+      "sha256": "8C80BFA9B39683E7FEC018289FB1C71D675632FE135794332B819FABB2C30BAB"
+    },
+    {
+      "name": "PC2-PILOT-ACCEPTANCE-FR.md",
+      "sha256": "609F0B82A117074CF3B6315AB0EC91E1F6CC48C3C4659B22B4912C5ED332D11E"
+    }
+  ],
+  "pc2Evidence": {
+    "baseInstallation": "PENDING",
+    "inAppUpdate": "PENDING"
+  }
+}
