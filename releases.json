@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "repository": "imad884/butec-erp-releases",
+  "generatedFrom": "release-ledger",
+  "identity": {
+    "appId": "com.butec.erp",
+    "productName": "BUTEC Procurement & Logistics ERP",
+    "executableName": "BUTEC Procurement & Logistics ERP.exe"
+  },
+  "channels": {
+    "stable": {
+      "status": "PENDING_OWNER_GATES",
+      "version": null,
+      "message": "Stable downloads are withheld until signing, external acceptance and owner approval are complete.",
+      "checks": [
+        "Authenticode publisher verification pending",
+        "Signed release-manifest verification pending",
+        "Physical installation and upgrade acceptance pending",
+        "Owner release approval pending"
+      ]
+    },
+    "pilot": {
+      "status": "DESIGNATED_ACCEPTANCE_ONLY",
+      "version": "3.0.0-pilot.1",
+      "message": "Unsigned internal Pilot 1 package for designated acceptance computers. Do not use as a Stable production release.",
+      "buttonLabel": "View Pilot 1 release",
+      "releaseUrl": "https://github.com/imad884/butec-erp-releases/releases/tag/v3.0.0-pilot.1",
+      "checks": [
+        "Exact source-SHA ledger recorded",
+        "Package-content inspection recorded",
+        "SHA-256 checksum recorded",
+        "PC-2 acceptance evidence pending"
+      ],
+      "ledger": {
+        "ledgerCommit": "b808274254e85cbb2e7b953af6b736269689d9b1",
+        "sourceHeadSha": "677ac13e90afb72fb7d6097f55adac0355c34431",
+        "installerSha256": "0A7E3F6475B81163BCBB51AB2B944324147774C461D73D0F1D1D219C007C958B",
+        "signatureStatus": "UNSIGNED_INTERNAL_PILOT"
+      }
+    }
+  }
+}

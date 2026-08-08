@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Official BUTEC Procurement & Logistics ERP download center">
+    <title>BUTEC ERP — Download Center</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="shell hero-grid">
+        <div>
+          <p class="eyebrow">BUTEC PROCUREMENT &amp; LOGISTICS ERP</p>
+          <h1>Download Center</h1>
+          <p class="lede">Verified public distribution metadata for the BUTEC ERP desktop application.</p>
+        </div>
+        <div class="identity-card" aria-label="Application identity">
+          <span>Application identity</span>
+          <strong id="product-name">Loading…</strong>
+          <small id="app-id">Loading…</small>
+        </div>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="notice" aria-labelledby="trust-title">
+        <div class="notice-icon" aria-hidden="true">✓</div>
+        <div>
+          <h2 id="trust-title">Use only the release metadata shown here</h2>
+          <p>Stable downloads remain unavailable until code signing, manifest verification, external installation acceptance and owner approval are complete.</p>
+        </div>
+      </section>
+
+      <section class="release-grid" aria-label="Release channels">
+        <article class="release-card" id="stable-card">
+          <div class="card-topline"><span class="channel stable">Stable</span><span id="stable-status">Pending</span></div>
+          <h2 id="stable-version">Stable release</h2>
+          <p id="stable-summary">The next stable release will appear here after all external gates pass.</p>
+          <div class="checks" id="stable-checks"></div>
+          <button class="button disabled" disabled>Stable download pending</button>
+        </article>
+
+        <article class="release-card" id="pilot-card">
+          <div class="card-topline"><span class="channel pilot">Pilot</span><span id="pilot-status">Loading…</span></div>
+          <h2 id="pilot-version">Pilot release</h2>
+          <p id="pilot-summary">Loading release metadata…</p>
+          <div class="checks" id="pilot-checks"></div>
+          <a class="button" id="pilot-download" href="#">View pilot release</a>
+        </article>
+      </section>
+
+      <section class="verification" aria-labelledby="verification-title">
+        <div>
+          <p class="eyebrow">TRANSPARENCY</p>
+          <h2 id="verification-title">Verify before installing</h2>
+          <p>Compare the installer SHA-256 with the public release ledger. Pilot packages are for designated acceptance computers only and are not stable production releases.</p>
+        </div>
+        <dl id="ledger-summary" class="ledger"></dl>
+      </section>
+
+      <p class="error" id="load-error" hidden>Release metadata could not be loaded. No download is being offered.</p>
+    </main>
+
+    <footer class="shell footer">
+      <span>© BUTEC Procurement &amp; Logistics ERP</span>
+      <a href="https://github.com/imad884/butec-erp-releases" rel="noopener noreferrer">Public release repository</a>
+    </footer>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
